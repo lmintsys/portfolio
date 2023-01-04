@@ -32,3 +32,58 @@ header nav li a {
     text-decoration: none;
     color: #033a88;
 }
+
+.hero-image {
+    display: flex;
+    background-image: url("../images/hero2.jpg");
+    height: 12rem;
+    position: relative;
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   justify-content: flex-end;
+}
+
+.hero-text {
+    text-align: right;
+    margin: 0;
+   
+    color: rgb(24, 40, 75);
+    align-self: flex-end;
+}
+
+table {
+     display: flex; 
+    width: 100%;
+    border-spacing: 2em;
+}
+
+td {
+    border-right: 3px solid;
+    padding: 0 0.5em 0 0.5em;
+}
+
+td:last-child {
+    border-right: none;
+}
+
+.title {
+ width: 20%;
+ 
+ text-align: right;
+ vertical-align: top; 
+}
+
+#horiseon-project {
+    display: flex;
+    position: relative;
+    text-align: left;
+}
+
+#horiseon-text {
+    position: absolute;
+    bottom: 15%;
+    background-color: #abdefe;
+    flex-shrink: 3;
+}
