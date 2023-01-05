@@ -1,8 +1,9 @@
 header {
     display: flex;
     height: 10%;
-    background-color: #67a1cf;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #064467;
+    color: #064467;
+    font-family: 'Trebuchet MS', sans-serif;
     margin: 0px;
     justify-content: space-between;
     align-items: center;
@@ -15,100 +16,135 @@ header h1 {
     background-color: #abdefe;
     position: relative;
     padding: 0 0.3% 0.3% 7%;
+    text-shadow: 1px 1px 2px #010815;
 }
 header nav li {
     display: inline-block;
-    border-bottom: 4px solid #033a88;
+    border-bottom: 4px solid #abdefe;
+    padding: 0 5px 0 5px;
+    
 }
 
 header nav {
-    font-size: 30px;
-   /* border: 3px solid; */
-    margin: 0 7% 0 0; 
-    color: #033a88;    
+    font-size: 1.5em;
+    margin-right: 2%; 
+    
 }
 
 header nav li a {
     text-decoration: none;
-    color: #033a88;
+    color: #abdefe;
 }
 
-.hero-image {
+#hero-image {
     display: flex;
     background-image: url("../images/hero2.jpg");
     height: 12rem;
     position: relative;
-    
+    margin-top: 0;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
    justify-content: flex-end;
 }
 
-.hero-text {
+#hero-text {
     text-align: right;
     margin: 0;
-   
-    color: rgb(24, 40, 75);
+    color:#064467;
     align-self: flex-end;
+    padding-right: 2%;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 
-table {
-     display: flex; 
-    width: 100%;
-    border-spacing: 2em;
+h2 {
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+section {
+    display: flex;
+    margin-top: 2%;
 }
 
-td {
-    border-right: 3px solid;
-    padding: 0 0.5em 0 0.5em;
-}
-
-td:last-child {
-    border-right: none;
+article p {
+   padding-left: 2%;
+   margin-block-start: 0;
+   margin-block-end: 0;
 }
 
 .title {
  width: 20%;
  text-align: right;
- vertical-align: top; 
+ vertical-align: top;
+ border-right: 3px solid #18284b;
+ padding-right: 1%;
+ font-family: 'Trebuchet MS', sans-serif;
+color:#064467;
+font-size: 1.6em;
+
+}
+
+.content {
+    display: flex;
+    width: 79%;
+    flex-wrap:wrap;
+    /* justify-content: space-evenly; */
+    
+    margin-top: 0;
 }
 
 #horiseon-project {
     display: flex;
     position: relative;
     text-align: left;
-    
+    margin: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
     width: 100%;
 }
 
-#horiseon-text {
-    position: absolute;
-    bottom: 15%;
-    background-color: #abdefe;
-    flex-shrink: 3;
+#horiseon-project img {
+    width: 100%;
+    border: 5px solid #abdefe;
 }
 
-.work-photos {
-    display: flex;
-    flex-wrap: wrap;
-    
-}
 
 h2 {
     font-size: 1.5em;
 }
 
-#project2-text {
+/* #project2-text {
     position: absolute;
     bottom: 15%;
     background-color: #abdefe;
-}
+} */
 
 .photo {
     position: relative;
-    width: 50%;
+    width: 46%;
+    margin: 2%;
+    margin-bottom: 0;
+    
 }
 .photo img {
     width: 100%;
+    border: 5px solid #abdefe;
+    
 }
+
+.photo-text {
+    position: absolute;
+    bottom: 15%;
+    background-color: #abdefe;
+    line-height: 1em;
+    padding-right: 2em;
+    padding-left: 1em;
+}
+
+/* @media screen and (max-width: 768px) {
+    #hero-text, header nav {
+        font-size: 0.8em;
+    }
+} */
