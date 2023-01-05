@@ -87,3 +87,12 @@ td:last-child {
     background-color: #abdefe;
     flex-shrink: 3;
 }
+
+.work-photos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+h2 {
+    font-size: 1.5em;
+}
