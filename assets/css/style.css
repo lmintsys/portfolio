@@ -70,7 +70,6 @@ td:last-child {
 
 .title {
  width: 20%;
- 
  text-align: right;
  vertical-align: top; 
 }
@@ -79,6 +78,8 @@ td:last-child {
     display: flex;
     position: relative;
     text-align: left;
+    
+    width: 100%;
 }
 
 #horiseon-text {
@@ -91,8 +92,23 @@ td:last-child {
 .work-photos {
     display: flex;
     flex-wrap: wrap;
+    
 }
 
 h2 {
     font-size: 1.5em;
+}
+
+#project2-text {
+    position: absolute;
+    bottom: 15%;
+    background-color: #abdefe;
+}
+
+.photo {
+    position: relative;
+    width: 50%;
+}
+.photo img {
+    width: 100%;
 }
