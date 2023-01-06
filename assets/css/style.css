@@ -70,19 +70,19 @@ section {
 
 article p {
    padding-left: 2%;
-   margin-block-start: 0;
-   margin-block-end: 0;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 1em;
 }
 
 .title {
  width: 20%;
  text-align: right;
  vertical-align: top;
- border-right: 3px solid #18284b;
+ border-right: 4px solid #064467;
  padding-right: 1%;
  font-family: 'Trebuchet MS', sans-serif;
-color:#064467;
-font-size: 1.6em;
+ color:#064467;
+ font-size: 1.6em;
 
 }
 
@@ -142,9 +142,31 @@ h2 {
     padding-right: 2em;
     padding-left: 1em;
 }
+#contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+    
+}
+/* p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+} */
 
+#contact-info p {
+    border-bottom: 4px solid #064467;
+}
+
+#contact-info a {
+    text-decoration: none;
+    color: black;
+}
 /* @media screen and (max-width: 768px) {
     #hero-text, header nav {
         font-size: 0.8em;
+    }
+    .title {
+        font-size: 1em;
     }
 } */
