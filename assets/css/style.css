@@ -38,7 +38,7 @@ header nav li a {
 
 #hero-image {
     display: flex;
-    background-image: url("../images/hero2.jpg");
+    background-image: url("../images/hero.jpg");
     height: 12rem;
     position: relative;
     margin-top: 0;
