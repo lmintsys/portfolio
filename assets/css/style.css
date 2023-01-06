@@ -1,3 +1,5 @@
+/* The header of the document, including the name and the navigation menu */
+
 header {
     display: flex;
     height: 10%;
@@ -18,23 +20,24 @@ header h1 {
     padding: 0 0.3% 0.3% 7%;
     text-shadow: 1px 1px 2px #010815;
 }
+
 header nav li {
     display: inline-block;
     border-bottom: 4px solid #abdefe;
     padding: 0 5px 0 5px;
-    
 }
 
 header nav {
     font-size: 1.5em;
-    margin-right: 2%; 
-    
+    margin-right: 2%;
 }
 
 header nav li a {
     text-decoration: none;
     color: #abdefe;
 }
+
+/* Hero image including a subtitle */
 
 #hero-image {
     display: flex;
@@ -58,6 +61,8 @@ header nav li a {
     margin-bottom: 0.5em;
     font-family: 'Trebuchet MS', sans-serif;
 }
+
+/* The main portion of the portfolio */
 
 h2 {
     margin-block-end: 0;
@@ -95,6 +100,10 @@ article p {
     margin-top: 0;
 }
 
+
+
+/* The main project from the "Work" section */
+
 #horiseon-project {
     display: flex;
     position: relative;
@@ -115,35 +124,26 @@ article p {
     filter:brightness(100%)
 }
 
-h2 {
-    font-size: 1.5em;
-}
-
-/* #project2-text {
-    position: absolute;
-    bottom: 15%;
-    background-color: #abdefe;
-} */
+/* Smaller photos of the projects from the "Work" section */
 
 .photo {
     position: relative;
     width: 46%;
     margin: 2%;
-    margin-bottom: 0;
-    
-    
+    margin-bottom: 0;   
 }
+
 .photo img {
     width: 100%;
     background-color: #abdefe;
     border: 5px solid #abdefe;
     filter: brightness(50%);
-    
 }
 
 .photo img:hover {
     filter:brightness(100%);
 }
+
 .photo-text {
     position: absolute;
     bottom: 15%;
@@ -154,17 +154,19 @@ h2 {
     padding-left: 1em;
     font-family: 'Trebuchet MS', sans-serif;
     color:#064467;
-    
 }
+
 .photo-text p {
     color: black;
 }
+
+/* "Contact me" section */
+
 #contact-info {
     display: flex;
     justify-content: space-evenly;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 1.2em;
-    
 }
 
 #contact-info p {
