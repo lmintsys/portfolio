@@ -108,8 +108,11 @@ article p {
 #horiseon-project img {
     width: 100%;
     border: 5px solid #abdefe;
+    filter: brightness(50%);
 }
-
+#horiseon-project img:hover{
+    filter:brightness(100%)
+}
 
 h2 {
     font-size: 1.5em;
@@ -131,16 +134,26 @@ h2 {
 .photo img {
     width: 100%;
     border: 5px solid #abdefe;
-    
+    filter: brightness(50%);
 }
 
+.photo img:hover {
+    filter:brightness(100%);
+}
 .photo-text {
     position: absolute;
     bottom: 15%;
     background-color: #abdefe;
-    line-height: 1em;
+    border-radius: 0 15px 15px 0;
+    line-height: 0.5em;
     padding-right: 2em;
     padding-left: 1em;
+    font-family: 'Trebuchet MS', sans-serif;
+    color:#064467;
+    
+}
+.photo-text p {
+    color: black;
 }
 #contact-info {
     display: flex;
