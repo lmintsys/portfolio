@@ -1,0 +1,198 @@
+/* The header of the document, including the name and the navigation menu */
+
+header {
+    display: flex;
+    height: 10%;
+    background-color: #064467;
+    color: #064467;
+    font-family: 'Trebuchet MS', sans-serif;
+    margin: 0px;
+    justify-content: space-between;
+    align-items: center;
+  
+    
+}
+header h1 {
+    display: inline-block;
+    font-size: 3em;
+    background-color: #abdefe;
+    position: relative;
+    padding: 0 0.3% 0.3% 7%;
+    text-shadow: 1px 1px 2px #010815;
+}
+
+header nav li {
+    display: inline-block;
+    border-bottom: 4px solid #abdefe;
+    padding: 0 5px 0 5px;
+}
+
+header nav {
+    font-size: 1.5em;
+    margin-right: 2%;
+}
+
+header nav li a {
+    text-decoration: none;
+    color: #abdefe;
+}
+
+/* Hero image including a subtitle */
+
+#hero-image {
+    display: flex;
+    background-image: url("../images/hero.jpg");
+    height: 12rem;
+    position: relative;
+    margin-top: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   justify-content: flex-end;
+}
+
+#hero-text {
+    text-align: right;
+    margin: 0;
+    color:#064467;
+    align-self: flex-end;
+    padding-right: 2%;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* The main portion of the portfolio */
+
+h2 {
+    margin-block-end: 0;
+    margin-block-start: 0;
+}
+section {
+    display: flex;
+    margin-top: 2%;
+}
+
+article p {
+   padding-left: 2%;
+   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+   font-size: 1em;
+}
+
+.title {
+ width: 20%;
+ text-align: right;
+ vertical-align: top;
+ border-right: 4px solid #064467;
+ padding-right: 1%;
+ font-family: 'Trebuchet MS', sans-serif;
+ color:#064467;
+ font-size: 1.6em;
+
+}
+
+.content {
+    display: flex;
+    width: 79%;
+    flex-wrap:wrap;
+    /* justify-content: space-evenly; */
+    
+    margin-top: 0;
+}
+
+
+
+/* The main project from the "Work" section */
+
+#horiseon-project {
+    display: flex;
+    position: relative;
+    text-align: left;
+    margin: 2%;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+}
+
+#horiseon-project img {
+    width: 100%;
+    border: 5px solid #abdefe;
+    background-color: #abdefe;
+    filter: brightness(50%);
+}
+#horiseon-project img:hover{
+    filter:brightness(100%)
+}
+
+/* Smaller photos of the projects from the "Work" section */
+
+.photo {
+    position: relative;
+    width: 46%;
+    margin: 2%;
+    margin-bottom: 0;   
+}
+
+.photo img {
+    width: 100%;
+    background-color: #abdefe;
+    border: 5px solid #abdefe;
+    filter: brightness(50%);
+}
+
+.photo img:hover {
+    filter:brightness(100%);
+}
+
+.photo-text {
+    position: absolute;
+    bottom: 15%;
+    background-color: #abdefe;
+    border-radius: 0 15px 15px 0;
+    line-height: 0.5em;
+    padding-right: 2em;
+    padding-left: 1em;
+    font-family: 'Trebuchet MS', sans-serif;
+    color:#064467;
+}
+
+.photo-text p {
+    color: black;
+}
+
+/* "Contact me" section */
+
+#contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.2em;
+}
+
+#contact-info p {
+    border-bottom: 4px solid #064467;
+}
+
+#contact-info a {
+    text-decoration: none;
+    color: black;
+}
+@media screen and (max-width: 832px) {
+    #hero-text, header nav {
+        font-size: 1.2em;
+    }
+    .title {
+        font-size: 1em;
+    }
+}
+@media screen and (max-width: 742px) {
+    header h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact-info p {
+        font-size: 0.8em;
+    }
+}
