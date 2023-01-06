@@ -12,7 +12,7 @@ header {
 }
 header h1 {
     display: inline-block;
-    font-size: 50px;
+    font-size: 3em;
     background-color: #abdefe;
     position: relative;
     padding: 0 0.3% 0.3% 7%;
@@ -108,6 +108,7 @@ article p {
 #horiseon-project img {
     width: 100%;
     border: 5px solid #abdefe;
+    background-color: #abdefe;
     filter: brightness(50%);
 }
 #horiseon-project img:hover{
@@ -130,11 +131,14 @@ h2 {
     margin: 2%;
     margin-bottom: 0;
     
+    
 }
 .photo img {
     width: 100%;
+    background-color: #abdefe;
     border: 5px solid #abdefe;
     filter: brightness(50%);
+    
 }
 
 .photo img:hover {
@@ -162,10 +166,6 @@ h2 {
     font-size: 1.2em;
     
 }
-/* p {
-    margin-block-start: 0;
-    margin-block-end: 0;
-} */
 
 #contact-info p {
     border-bottom: 4px solid #064467;
@@ -175,11 +175,22 @@ h2 {
     text-decoration: none;
     color: black;
 }
-/* @media screen and (max-width: 768px) {
+@media screen and (max-width: 832px) {
     #hero-text, header nav {
-        font-size: 0.8em;
+        font-size: 1.2em;
     }
     .title {
         font-size: 1em;
     }
-} */
+}
+@media screen and (max-width: 742px) {
+    header h1 {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #contact-info p {
+        font-size: 0.8em;
+    }
+}
